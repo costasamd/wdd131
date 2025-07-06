@@ -5,10 +5,35 @@
 
 body{
     display: grid;
-    height: auto;
+    height: 100vh;
     grid-template: auto 1fr auto/ auto 1fr auto;
 }
+header{
+    
+    padding: 1px;
+    grid-column: 1/4;
 
+}
 nav{
     display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+main{
+    background-color: aqua;
+    grid-column: 1/3;
+    grid-row: 2;
+}
+
+.right-sider{
+    background-color: blue;
+    padding: 1px;
+    grid-column: 3/4;
+}
+
+footer{
+    text-align: center;
+    padding: 2rem;
+    grid-column: 1/4;
 }
