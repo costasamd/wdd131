@@ -10,6 +10,5 @@ body{
 }
 
 nav{
-    display: grid;
-    flex-direction: row;
+    display: flex;
 }
