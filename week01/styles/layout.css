@@ -7,4 +7,5 @@ body{
     display: grid;
     height: auto;
     grid-template: auto 1fr auto/ auto 1fr auto;
+    flex-direction: row;
 }
