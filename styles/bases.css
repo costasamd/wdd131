@@ -24,6 +24,8 @@ body{
 header{
     grid-column: 1/4;
     width: 100%;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
 }
 
 main{
