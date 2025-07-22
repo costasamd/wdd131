@@ -1,0 +1,28 @@
+@media screen and (min-width: 750px){
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav{
+        flex-direction: row;
+    }
+
+    nav a{
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+
+    .photos{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #menu{
+        display: none;
+    }
+}
