@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Page</title>
+    <meta name="description" content="this page cointain the information about the country where Samuel is originally from.">
+    <meta name="author" content="Samuel Dias Costa">
+    <link rel="stylesheet" href="styles/place.css">
+    <script defer src="scripts/place.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Brazil</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/arara-large.webp" media="min-width 1500px">
+                <source srcset="images/arara-medium.webp" media="min-width 1000px">
+                <img src="images/arara-small.webp" alt="statue of Jesus Christ with open arms" with="500" height="auto">
+            </picture>
+        </div>
+        <section id="data">
+            <h2>Data</h2>
+            <ul>
+                <li>
+                    <strong>Area:</strong><p>8,515,767 Km2</p>
+                </li>
+                <li>
+                    <strong>Population:</strong><p>212,583,750</p>
+                </li>
+                <li>
+                    <strong>Capital:</strong><p>Brasilia</p>
+                </li>
+                <li>
+                    <strong>Language:</strong><p>Portuguese</p>
+                </li>
+                <li>
+                    <strong>Currency:</strong><p>Real</p>
+                </li>
+                <li>
+                    <strong>Calling Code:</strong><p>+55</p>
+                </li>
+            </ul>
+
+        </section>
+        <section id="weather">
+            <h2>weather</h2>
+            <picture>
+                <img src="images/weather-icon.svg" alt="cloud with sun behind and a lighting coming out of the cloud" width="150" height="auto">
+            </picture>
+            <ul>
+                <li>
+                    <strong>Temperature:</strong><p>15℃</p>
+                </li>
+                <li>
+                    <strong>Conditions:</strong><p>Sunshine and storm</p>
+                </li>
+                <li>
+                    <strong>Wind:</strong><p>6km/h</p>
+                </li>
+                <li>
+                    <strong>Wind Chill:</strong><p id="chill"></p>
+                </li>
+
+            </ul>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> - Samuel Dias Costa - Manchester, UK</p>
+        <p><span id="lastmodified"></span></p>
+
+    </footer>
+    
+</body>
+</html>
