@@ -82,6 +82,15 @@ header{
     font-size: 3rem;
 }
 
+#weather h2::before{
+    content: "☁️ ";
+    font-size: 4rem;
+}
+#weather h2::after{
+    content: " ☀️️";
+    font-size: 4rem;
+}
+
 #weather li, strong{
     display: flex;
     flex-direction: row;
