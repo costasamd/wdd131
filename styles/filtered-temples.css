@@ -1,0 +1,129 @@
+:root {
+    --background-color: white;
+    --primary-color: #2B9348;
+    --secondary-color: #AACC00;
+    --ascent-color: #EEEF20;
+
+}
+
+*{
+    margin:0.1rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+/* mobile view ***************/
+header{
+    background-color: #2B9348;
+    display: grid;
+    grid-gap: 1rem;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header,
+main{
+    margin: 0 auto;
+}
+
+#title{
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav a{
+    display: none;
+    color: var(--background-color);
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: large;
+}
+
+nav a:hover{
+    color: blue;
+    text-decoration: underline double;
+}
+
+#menu{
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before{
+    content: '☰';
+}
+
+#menu.open::before{
+    content: 'ⓧ';
+}
+
+.open a{
+    display: block;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+    justify-content: center;
+}
+
+.photos section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid green;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img{
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0.1rem;
+    width: auto;
+    height: 200px;
+}
+
+img:hover{
+    box-shadow: 0 0 30px var(--primary-color);
+}
+
+footer{
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #2B9348;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1)
+}
