@@ -22,9 +22,8 @@
     <form method="get" action="review.html" class="rf1">
         <fieldset>
             <legend>Product</legend>
-            <label>Product Name</label>
-            <select id="productName" name="products" required>
-                <option disabled>Please Select </option>
+            <label for="productName">Product Name</label>
+            <select id="productName" name="products" placeholder="Select a product..." required>
             </select>
             <legend>Rating</legend>
             <div class="starRating">
@@ -50,7 +49,7 @@
         <fieldset>
             <legend>Written Review (optional)</legend>
             <label>Write your review:</label>
-            <label><input type="textarea" id="written" name="wirttenReview"></label>
+            <input type="textarea" id="written" name="wirttenReview"><label for="written"></label>
         </fieldset>
         <fieldset>
             <legend>User Name (optional)</legend>
