@@ -19,7 +19,7 @@
 </head>
 <body>
     <header>
-        <img src="placeholder" alt="logo" width="150px">
+        <img src="images/logo.webp" alt="logo" width="150">
         <h1>Costa Fitness</h1>
         <nav>
             <ul>
@@ -31,9 +31,15 @@
     </header>
     
     <main>
-       <div>
+       <div id="faq">
         <!--FAQ-->
-        
+        <h2>FAQ</h2>
+        <h3>Can I do the program even if I don't have much expirience working out?</h3>
+        <P>Yes. You can start with one of the begginer programs and building up your skill and strength till your next level</P>
+        <h3>How much cost for the program?</h3>
+        <p>Our programs are free to use and we also don't mind you sharing with others, so after you try, when you know that it's good, share with your loved ones.</p>
+        <h3>If I need extra help, what do I do?</h3>
+        <p>We have a library of videos to support your progress, also you have the form for any specific questiions. Just keep in mind that this is a vonlutary project and the answer might take a few days to come.</p>
        </div>
        <div class="form">
         <!--form-->
@@ -48,12 +54,12 @@
             <fieldset>
                 <legend>Objective (optinal)</legend>
                 <label>My Goal: <input type="text" id="goal" name="goal"></label>
-                <label>Experience
-                    <input type="radio" id="less" name="Experience">Less than 6 months
-                    <input type="radio" id="six" name="Experience">6 months
-                    <input type="radio" id="more" name="Experience">more than 6 months
-                    <input type="radio" id="year" name="Experience">1 year (plus)
-                </label>
+                <div>Experience</div>
+                <label><input type="radio" name="Experience" value="less">Less than 6 months</label>
+                <label><input type="radio" name="Experience" value="six">6 months</label>
+                <label><input type="radio" name="Experience" value="more">more than 6 months</label>
+                <label><input type="radio" name="Experience" value="year">1 year (plus)</label>
+                
             </fieldset>
             <fieldset>
                 <legend>My Question</legend>

@@ -19,7 +19,7 @@
 </head>
 <body>
     <header>
-        <img src="placeholder" alt="logo" width="150px">
+        <img src="images/logo.webp" alt="logo" width="150">
         <h1>Costa Fitness</h1>
         <nav>
             <ul>
@@ -31,28 +31,124 @@
     </header>
     
     <main>
-        <section class="submenu">
+        <div class="submenu">
             <!--three filters-->
             <ul>
                 <li><a href="begginer">Begginer</a></li>
                 <li><a href="intermediate">Intermediate</a></li>
                 <li><a href="Advanced">Advanced</a></li>
             </ul>
-        </section>
+        </div>
         <section>
             <!--galery of resources-->
             <h2>Costa Fitness Resources to You</h2>
-            <div id="pdf">
+            <section class="pdf">
                 <!--downloading pdf programs-->
-                
-            </div>
-            <div id="nutri">
+                <h2>Exercises and programs</h2>
+                <div id="doc1">
+                    <embed src="files/6-weeks-fat-loss-program.pdf" width="300" height="450">
+                    <div class="caption">6 Weeks fat loss program</div>
+                    <a href="files/6-weeks-fat-loss-program.pdf" download class="button download">download</a>
+                </div>
+                <div id="doc2">
+                    <embed src="files/unleash.pdf" width="300" height="450">
+                    <div class="caption">Unleash (awake program)</div>
+                    <a href="files/unleash.pdf" download class="button download">download</a>
+                </div>
+                <div id="doc3">
+                    <figure>
+                        <img src="images/back-pain-workout.jpg" alt="back exercises" height="450">
+                        <figcaption>Back Pain</figcaption>
+                    </figure>
+                    <a href="images/back-pain-workout.jpg" download class="button download">download</a>
+                </div>
+            </section>
+            <section class="nutri">
                 <!--recipes in gallery-->
-
-            </div>
-            <div id="library">
-                <!--videosin gallery-->
-            </div>
+                <h2>Nutrition library</h2>
+                <div id="recipe1">
+                    <embed src="files/breakfast-recipes.pdf" width="300" height="450">
+                    <div class="caption">Breakfast book/caption></div>
+                    <a href="files/breakfast-recipes.pdf" download class="button download">download</a>
+                </div>
+                <div id="recipe2">
+                    <embed src="files/lunch-recipes.pdf" width="300" height="450">
+                    <div class="caption">Lunch book/caption></div>
+                        <a href="files/lunch-recipes.pdf" download class="button download">download</a>
+                </div>
+                <div id="recipe3">
+                    <embed src="files/shakes.pdf#page=1" width="300" height="350">
+                    <div class="caption">3 shakes/caption></div>
+                        <a href="files/shakes.pdf" download class="button download">download</a>
+                </div>
+            </section>
+            <section class="library">
+                <!--videos in gallery-->
+                <h2>Videos library</h2>
+                <div>
+                    <video controls width="400">
+                        <source src="videos/90-squat.mp4" type="video/mp4">
+                        your browser does not support the video tag
+                    </video>
+                    <div class="caption">90º Squat</div>
+                </div>
+                <div>
+                    <video controls width="400">
+                        <source src="videos/air-prayer-row.mp4" type="video/mp4">
+                        your browser does not support the video tag
+                    </video>
+                    <div class="caption">Air Prayer Row</div>
+                </div>
+                <div>
+                    <video controls width="400">
+                        <source src="videos/air-rdl.mp4" type="video/mp4">
+                        your browser does not support the video tag
+                    </video>
+                    <div class="caption">Air RDL</div>
+                </div>
+                <div>
+                    <video controls width="400">
+                        <source src="videos/bear-up-and-down.mp4" type="video/mp4">
+                        your browser does not support the video tag
+                    </video>
+                    <div class="caption">Bear up and down</div>
+                </div>
+                <div>
+                    <video controls width="400">
+                        <source src="videos/db-bent-over-row.mp4" type="video/mp4">
+                        your browser does not support the video tag
+                    </video>
+                    <div class="caption">DB Bent Over Row</div>
+                </div>
+                <div>
+                    <video controls width="400">
+                        <source src="videos/dead-bug.mp4" type="video/mp4">
+                        your browser does not support the video tag
+                    </video>
+                    <div class="caption">Dead Bug</div>
+                </div>
+                <div>
+                    <video controls width="400">
+                        <source src="videos/diamond-push-up.mp4" type="video/mp4">
+                        your browser does not support the video tag
+                    </video>
+                    <div class="caption">Diamond Push-up</div>
+                </div>
+                <div>
+                    <video controls width="400">
+                        <source src="videos/duck-walk.mp4" type="video/mp4">
+                        your browser does not support the video tag
+                    </video>
+                    <div class="caption">Duck Walk</div>  
+                </div>
+                <div>
+                    <video controls width="400">
+                        <source src="videos/soaring-superman.mp4" type="video/mp4">
+                        your browser does not support the video tag
+                    </video>
+                    <div class="caption">Soaring Superman</div>
+                </div>
+            </section>
         </section>
     </main>
     <footer>
