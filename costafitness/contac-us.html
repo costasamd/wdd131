@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costa Fitness</title>
+    <meta name="description" content="Landpage with introduction to Costa Fitness project, declaration of intention and access to the resourses">
+    <meta name="author" content="Samuel Dias Costa">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <!-- font-family: "League Spartan", sans-serif; - css reference -->
+
+    <link rel="stylesheet" href="styles/costafitness.css">
+    <link rel="stylesheet" href="styles/costafitness-large.css">
+    <script defer src="scripts/costafitness.js"></script>
+    
+</head>
+<body>
+    <header>
+        <img src="placeholder" alt="logo" width="150px">
+        <h1>Costa Fitness</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contac-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+       <div>
+        <!--FAQ-->
+        
+       </div>
+       <div class="form">
+        <!--form-->
+
+        <form>
+            <h2>Contact Us</h2>
+            <fieldset>
+                <legend>User</legend>
+                <label>Name: <input type="text" id="name" name="name" required></label>
+                <label>Email: <input type="email" id="email" name="email" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Objective (optinal)</legend>
+                <label>My Goal: <input type="text" id="goal" name="goal"></label>
+                <label>Experience
+                    <input type="radio" id="less" name="Experience">Less than 6 months
+                    <input type="radio" id="six" name="Experience">6 months
+                    <input type="radio" id="more" name="Experience">more than 6 months
+                    <input type="radio" id="year" name="Experience">1 year (plus)
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>My Question</legend>
+                <textarea placeholder="My question is..." required></textarea>
+            </fieldset>
+            <input type="submit" value="Send my Question">
+        </form>
+       </div>
+        
+    </main>
+    <footer>
+        <p>©️ Samuel Dias Costa | 2025</p>
+    </footer>
+
+</body>
+</html>
