@@ -69,11 +69,15 @@ form{
     margin-top: 10px;
 }
 
+#rate{
+    margin-top: 2rem;
+}
+
 /*---------------stars---------------*/
 
 .starRating input{
     display: none;
-    position:relative;
+    position: relative;
 }
 .starRating{
     display: flex;

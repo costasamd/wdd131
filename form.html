@@ -23,9 +23,11 @@
         <fieldset>
             <legend>Product</legend>
             <label for="productName">Product Name</label>
-            <select id="productName" name="products" placeholder="Select a product..." required>
+            <select id="productName" name="products" required>
+                <option value="">Select a product...</option>
             </select>
-            <legend>Rating</legend>
+            
+            <label id="rate">Rating</label>
             <div class="starRating">
                 <input type="radio" id="fiveStar" name="stars" value="5" required><label for="fiveStar"></label>
                 <input type="radio" id="fourStar" name="stars" value="4" required><label for="fourStar"></label>
