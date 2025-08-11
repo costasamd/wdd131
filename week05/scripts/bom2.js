@@ -34,8 +34,6 @@ function displayList(item) {
         deleteChapter(li.textContent);
         input.focus();
     });
-    console.log('I like to copy code instead of typing it out myself')
-
 }
 
 function setChapterList() {
