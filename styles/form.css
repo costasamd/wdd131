@@ -113,13 +113,13 @@ form{
 select,
 input[type="date"],
 input[type="text"],
-input[type="textarea"]{
+textarea{
     width: 100%;
     height: 55px;
     font-size: 1.2rem;
 }
 
-.rf1 input[type="textarea"]{
+textarea{
     resize: vertical;
 }
 
