@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
     <!-- font-family: "League Spartan", sans-serif; - css reference -->
 
-    <link rel="stylesheet" href="styles/costafitness.css">
-    <link rel="stylesheet" href="styles/costafitness-large.css">
+    <link rel="stylesheet" href="styles/resources.css">
+    
     <script defer src="scripts/costafitness.js"></script>
     
 </head>
@@ -39,7 +39,7 @@
                 <li><a href="Advanced">Advanced</a></li>
             </ul>
         </div>
-        <section>
+        <section class="gallery">
             <!--galery of resources-->
             <h2>Costa Fitness Resources to You</h2>
             <section class="pdf">
@@ -77,7 +77,7 @@
                         <a href="files/lunch-recipes.pdf" download class="button download">download</a>
                 </div>
                 <div id="recipe3">
-                    <embed src="files/shakes.pdf#page=1" width="300" height="350">
+                    <embed src="files/shakes.pdf#page=1" width="300" height="450">
                     <div class="caption">3 shakes/caption></div>
                         <a href="files/shakes.pdf" download class="button download">download</a>
                 </div>
@@ -85,64 +85,64 @@
             <section class="library">
                 <!--videos in gallery-->
                 <h2>Videos library</h2>
-                <div>
-                    <video controls width="400">
+                <div id="v1">
+                    <video controls preload="none" width="400">
                         <source src="videos/90-squat.mp4" type="video/mp4">
                         your browser does not support the video tag
                     </video>
                     <div class="caption">90º Squat</div>
                 </div>
-                <div>
-                    <video controls width="400">
+                <div id="v2">
+                    <video controls preload="none" width="400">
                         <source src="videos/air-prayer-row.mp4" type="video/mp4">
                         your browser does not support the video tag
                     </video>
                     <div class="caption">Air Prayer Row</div>
                 </div>
-                <div>
-                    <video controls width="400">
+                <div id="v3">
+                    <video controls preload="none" width="400">
                         <source src="videos/air-rdl.mp4" type="video/mp4">
                         your browser does not support the video tag
                     </video>
                     <div class="caption">Air RDL</div>
                 </div>
-                <div>
-                    <video controls width="400">
+                <div id="v4">
+                    <video controls preload="none" width="400">
                         <source src="videos/bear-up-and-down.mp4" type="video/mp4">
                         your browser does not support the video tag
                     </video>
                     <div class="caption">Bear up and down</div>
                 </div>
-                <div>
-                    <video controls width="400">
+                <div id="v5">
+                    <video controls preload="none" width="400">
                         <source src="videos/db-bent-over-row.mp4" type="video/mp4">
                         your browser does not support the video tag
                     </video>
                     <div class="caption">DB Bent Over Row</div>
                 </div>
-                <div>
-                    <video controls width="400">
+                <div id="v6">
+                    <video controls preload="none" width="400">
                         <source src="videos/dead-bug.mp4" type="video/mp4">
                         your browser does not support the video tag
                     </video>
                     <div class="caption">Dead Bug</div>
                 </div>
-                <div>
-                    <video controls width="400">
+                <div id="v7">
+                    <video controls preload="none" width="400">
                         <source src="videos/diamond-push-up.mp4" type="video/mp4">
                         your browser does not support the video tag
                     </video>
                     <div class="caption">Diamond Push-up</div>
                 </div>
-                <div>
-                    <video controls width="400">
+                <div id="v8">
+                    <video controls preload="none" width="400">
                         <source src="videos/duck-walk.mp4" type="video/mp4">
                         your browser does not support the video tag
                     </video>
                     <div class="caption">Duck Walk</div>  
                 </div>
-                <div>
-                    <video controls width="400">
+                <div id="v9">
+                    <video controls preload="none" width="400">
                         <source src="videos/soaring-superman.mp4" type="video/mp4">
                         your browser does not support the video tag
                     </video>
@@ -152,7 +152,7 @@
         </section>
     </main>
     <footer>
-        <p>©️ Samuel Dias Costa | 2025</p>
+        <p id="footer">©️ Samuel Dias Costa | 2025</p>
     </footer>
 
 </body>

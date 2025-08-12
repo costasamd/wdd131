@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #033B10;
+    --secondary-color: #08914B;
+    --ascent-color: #FFEB85;
+    --font-family: "League Spartan", sans-serif;
+}
+
+body {
+    padding: .5rem;
+    font-family: var(--font-family);
+   
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+p {
+    font-weight: 300;
+    font-size: x-large;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+}
+
+ul li {
+    margin: 10px;
+    display: block;
+}
+
+
+#footer {
+    margin-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+/*----------------contact us---------------*/
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#faq h3, p{
+    margin-top: 20px;
+    padding: 1rem;
+}
+
+#faq h3::before{
+    content: "− ";
+}
+
+/*---------------form-------------------*/
+
+form {
+
+    margin: 10px;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: white;
+    padding: .9rem;
+    max-width: 600px;
+}
+
+.cme fieldset {
+    padding: 1rem;
+    display: block;
+    border-radius: .3rem;
+    margin-top: 10px;
+}
+
+.cme legend {
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.cme label {
+    display: block;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+#exp{
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+.cme input[type="radio"]{
+   margin-right: 6px;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+    width: 100%;
+    height: 55px;
+    font-size: 1.2rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+
+input[type="submit"] {
+    padding: 1.5rem;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 10px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+input[type="submit"]:hover {
+
+    background-color: var(--secondary-color);
+    color: #000;
+}
+
+
