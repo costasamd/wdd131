@@ -111,7 +111,7 @@ a{
 
 #mission{
     display:block;
-    border: 1px solid rgba(255,255,255, 0,8);
+    border: 1px solid rgba(255,255,255, 0.8);
     border-radius: .5rem;
     width: 300px;
     background-color: var(--ascent-color);
