@@ -50,12 +50,26 @@ header {
 ul {
     display: flex;
     flex-direction: row;
-    justify-content: baseline;
+    align-items: center;
 }
 
 ul li {
     margin: 10px;
     display: block;
+    border: 1.5px solid var(--primary-color);
+    padding: 1rem;
+    width: 150px;
+    background-color: var(--secondary-color);
+}
+
+ul li:hover {
+    background-color: var(--primary-color);
+}
+
+a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -67,11 +81,14 @@ ul li {
 
 /*------------resources page---------------*/
 
-.submenu ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+#welcome{
+    font-size: 3rem;
+    text-decoration: underline var(--primary-color);
+}
+
+.gallery a{
+    color: #033B10;
+    text-decoration: underline;
 }
 
 .pdf{
