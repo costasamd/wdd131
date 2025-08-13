@@ -40,27 +40,28 @@ p{
 header{
     display: flex;
     flex-direction: row;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
     padding: 1rem;
 }
 
-ul{
+nav{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-ul li{
-    margin: 10px ;
+li{
+    margin: 10px;
     display: block;
     border: 1.5px solid var(--primary-color);
     padding: 1rem;
     width: 150px;
     background-color: var(--secondary-color);
+    text-align: center;
 }
 
-ul li:hover{
+li:hover{
     background-color: var(--primary-color);
 }
 
@@ -69,10 +70,6 @@ a{
     color: white;
     text-decoration: none;
 }
-
-
-
-
 
 
 #footer{
@@ -84,16 +81,21 @@ a{
 
 /*-----------Main--------------*/
 
+.promo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
 .promo img{
     padding: .3rem;
     width: 100%;
+    height: auto;
 }
 #promoButton{
-    padding: 1.2rem;
-    width: 150px;
-    position:absolute;
-    top: 650px;
-    right:50px;
+    padding: 1rem 1.2rem;
+    width: auto;
     box-shadow: 5px 5px var(--secondary-color);
 }
 
@@ -105,20 +107,54 @@ a{
 .hero img{
     width: 100%;
     height: auto;
-    opacity: 90%;
-    z-index: 0;
+    opacity: 0.9;
+  
 }
 
 #mission{
     display:block;
     border: 1px solid rgba(255,255,255, 0.8);
     border-radius: .5rem;
-    width: 300px;
+    width: 90%;
     background-color: var(--ascent-color);
     box-shadow: 10px 5px white;
-    position: absolute;
-    bottom: 180px;
-    left: 15px;
-    z-index: 1;
+    padding: 1rem;
+    margin: 1rem auto;
 }
 
+section h2{
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+/*-----------------header responsiviness-----------*/
+
+
+@media screen and (max-width: 800px){
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header h1{
+        display: none;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    li {
+        padding: .5rem;
+        width: 100px;
+        text-align: center;
+    }
+    
+
+    a{
+        font-size: 1rem;
+        
+    }
+}

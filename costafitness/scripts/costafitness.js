@@ -10,6 +10,3 @@ year.innerHTML = today.getFullYear();
 getItNow.addEventListener('click', function () {
     window.location.href = "resources.html";
 });
-
-
-
